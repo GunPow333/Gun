@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web của Ngọc</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 0.5rem;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 2rem;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chào mừng đến với trang web của Ngọc</h1>
+    </header>
+    <nav>
+        <a href="#home">Trang chủ</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Giới thiệu</h2>
+            <p>Đây là trang web đầu tiên của tôi. Tôi đang học lập trình và rất vui được chia sẻ với bạn!</p>
+        </section>
+        <section id="contact">
+            <h2>Liên hệ</h2>
+            <p>Email: <a href="mailto:ngoc@example.com">ngoc@example.com</a></p>
+            <p>Số điện thoại: 0123 456 789</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Ngọc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
